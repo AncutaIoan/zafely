@@ -1,0 +1,26 @@
+# Ignore the target directory, where Rust builds the project
+/target/
+
+# Ignore IntelliJ project files
+.idea/
+*.iml
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Cargo's registry and index
+/target/
+/Cargo.lock
+
+# Ignore Rust build artifacts
+*.rs.bk
